@@ -95,6 +95,20 @@ This script compares the text content of corresponding pages in two PDF files. I
 python compare.py file1.pdf file2.pdf --output differences.txt
 ```
 
+### 7. txt_to_pdf.py
+
+Convert a .txt file to a PDF.
+
+#### Usage:
+
+```bash
+# install reportlab
+pip install reportlab
+
+# Convert input.txt to output.pdf
+python txt_to_pdf.py input.txt output.pdf
+```
+
 ## How to Run
 
 1. Clone this repository:
