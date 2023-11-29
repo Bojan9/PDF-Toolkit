@@ -15,7 +15,7 @@ def convert_txt_to_pdf(input_txt, output_pdf):
     # Save the PDF file
     pdf_canvas.save()
 
-    print(f"Conversion completed. PDF saved to {output_pdf}")
+    print(f"Conversion was completed. PDF saved to {output_pdf}")
 
 def main():
     parser = argparse.ArgumentParser(description="Convert a text file to a PDF file.")
