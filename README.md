@@ -70,6 +70,31 @@ python extract_pages.py input.pdf output.pdf 3 4 7
 python extract_pages.py input.pdf output.pdf 1 2
 ```
 
+### 5. split_pdf.py
+
+This script splits every page of a PDF file and stores them in a new folder.
+
+#### Usage:
+
+```bash
+# Split input.pdf into individual pages in the default folder "split_pages"
+python split.py input.pdf
+
+# Split input.pdf into individual pages in a custom folder "output_folder"
+python split.py input.pdf --output output_folder
+```
+
+### 6. compare.py
+
+This script compares the text content of corresponding pages in two PDF files. If differences are found, it prints the differing text for each page.
+
+#### Usage:
+
+```bash
+# Compare two PDF files and save differences to differences.txt
+python compare.py file1.pdf file2.pdf --output differences.txt
+```
+
 ## How to Run
 
 1. Clone this repository:
