@@ -1,6 +1,19 @@
 # PDF Toolkit
 
-This repository contains a set of Python scripts for working with PDF files. Each script serves a specific purpose related to PDF manipulation.
+This repository contains a set of Python scripts for working with PDF files. Each script serves a specific purpose related to PDF manipulation. The scripts use the [PyPDF2 library](https://pypdf2.readthedocs.io/en/3.0.0/index.html).
+
+## Installation
+
+```bash
+# Install the required library
+pip install PyPDF2
+
+# For extracting the images
+pip install PyPDF2[image]
+
+# Or just install all optional dependencies
+pip install PyPDF2[full]
+```
 
 ## Scripts Overview
 
@@ -11,9 +24,6 @@ This script merges multiple PDF files into a single PDF file.
 #### Usage:
 
 ```bash
-# Install the required library
-pip install PyPDF2
-
 # Run the script
 python merge.py output.pdf input1.pdf input2.pdf input3.pdf
 ```
@@ -39,9 +49,6 @@ This script extracts images from PDF files, either from all pages or a specific 
 #### Usage:
 
 ```bash
-# Install the required library
-pip install PyPDF2[image]
-
 # Extract images from all pages to the default folder "extracted_images"
 python extract_images.py example.pdf
 
