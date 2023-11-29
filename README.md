@@ -91,7 +91,7 @@ This script compares the text content of corresponding pages in two PDF files. I
 #### Usage:
 
 ```bash
-# Compare two PDF files and save differences to differences.txt
+# Compare two PDF files and save differences to a txt file
 python compare.py file1.pdf file2.pdf --output differences.txt
 ```
 
