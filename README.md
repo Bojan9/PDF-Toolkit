@@ -115,9 +115,12 @@ python txt_to_pdf.py input.txt output.pdf
 
 ```bash
 git clone https://github.com/Bojan9/PDF-Toolkit.git
-cd pdf-toolkit
 ```
 
 2. Navigate to the directory of the script you want to use.
+
+```bash
+cd pdf-toolkit
+```
 
 3. Follow the usage instructions provided above for each script.
