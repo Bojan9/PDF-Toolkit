@@ -4,8 +4,21 @@ This repository contains a set of Python scripts for working with PDF files. Eac
 
 ## Installation
 
+1. Clone this repository:
+
 ```bash
-# Install the required library
+git clone https://github.com/Bojan9/PDF-Toolkit.git
+```
+
+2. Navigate to the directory of the script you want to use.
+
+```bash
+cd pdf-toolkit
+```
+
+3. Install the required libraries
+
+```bash
 pip install PyPDF2
 
 # For extracting the images
@@ -14,6 +27,8 @@ pip install PyPDF2[image]
 # Or just install all optional dependencies
 pip install PyPDF2[full]
 ```
+
+4. Follow the usage instructions provided below for each script.
 
 ## Scripts Overview
 
@@ -66,8 +81,8 @@ This script creates a new PDF file from specific pages of an existing PDF.
 # Create a new PDF file containing pages 3, 4, and 7
 python extract_pages.py input.pdf output.pdf 3 4 7
 
-# Create a new PDF file containing pages 1 and 2
-python extract_pages.py input.pdf output.pdf 1 2
+# Create a new PDF file containing pages from 3 to 7 and 11
+python extract_pages.py input.pdf output.pdf 3-7 11
 ```
 
 ### 5. split_pdf.py
@@ -108,19 +123,3 @@ pip install reportlab
 # Convert input.txt to output.pdf
 python txt_to_pdf.py input.txt output.pdf
 ```
-
-## How to Run
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/Bojan9/PDF-Toolkit.git
-```
-
-2. Navigate to the directory of the script you want to use.
-
-```bash
-cd pdf-toolkit
-```
-
-3. Follow the usage instructions provided above for each script.
