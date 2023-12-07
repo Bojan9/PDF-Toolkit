@@ -4,19 +4,7 @@ This repository contains a set of Python scripts for working with PDF files. Eac
 
 ## Installation
 
-1. Clone this repository:
-
-```bash
-git clone https://github.com/Bojan9/PDF-Toolkit.git
-```
-
-2. Navigate to the directory of the script you want to use.
-
-```bash
-cd pdf-toolkit
-```
-
-3. Install the required libraries
+Install the required libraries
 
 ```bash
 pip install PyPDF2
@@ -28,7 +16,7 @@ pip install PyPDF2[image]
 pip install PyPDF2[full]
 ```
 
-4. Follow the usage instructions provided below for each script.
+Follow the usage instructions provided below for each script.
 
 ## Scripts Overview
 
