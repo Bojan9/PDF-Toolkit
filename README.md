@@ -22,7 +22,7 @@ Follow the usage instructions provided below for each script.
 
 ### 1. merge.py
 
-This script merges multiple PDF files into a single PDF file.
+Merge multiple PDF files into a single PDF file.
 
 #### Usage:
 
